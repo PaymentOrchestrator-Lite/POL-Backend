@@ -1,0 +1,6 @@
+services:
+  pol-backend:
+    build: 
+      dockerfile: ./Docker/Dockerfile
+    ports:
+      - "7013:8080"
